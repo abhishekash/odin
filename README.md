@@ -5,5 +5,5 @@ docker build -t ecs-workshop/odin --build-arg JAR_FILE=target/ecsworkshop.servic
 
 #### Run the image with command
 
-docker run -p 8080:8080 ecs-workshop/odin
+docker run -p 8080:8080 abhishek/odin
 
